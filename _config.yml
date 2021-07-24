@@ -3,7 +3,7 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            Hydeout
+title:            Tâi-ji̍t Tōa-sû-tián
 tagline:          'A Jekyll theme'
 description:      'The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.'
 url:              https://chhoetaigi.github.io
@@ -13,6 +13,8 @@ baseurl:          '/TaijitToaSutianWebsite'
                   # If you want to move just the blog index pages but keep
                   # other pages at root, see the paginate_path and
                   # sidebar_blog_link below.
+
+remote_theme: fongandrew/hydeout
 
 author:
   name:           'Andrew Fong'
@@ -33,3 +35,9 @@ sidebar_home_link:  true
                                 # page. If you change your paginate_path,
                                 # set this to the root of the paginate_path
                                 # to enable a separate blog link.
+
+# kramdown settings
+kramdown:
+  typographic_symbols:
+      ndash: --
+
